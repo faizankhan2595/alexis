@@ -13,6 +13,8 @@ const WhatDoYou = () => {
         <div className="bottom">
           <div className="content">
           We offer comprehensive logistics solutions, from the initial pickup of goods to final delivery. We provide shipping containers, packing and crating services, and transportation insurance to ensure the safe and secure transport of our clients' products.
+          <br></br>
+          Our shipping services cater to both domestic and international markets.
           </div>
 
           <div className="button"><a href="">LEARN MORE</a></div>

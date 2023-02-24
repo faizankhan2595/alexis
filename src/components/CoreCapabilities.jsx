@@ -64,9 +64,9 @@ const CoreCapabilities = () => {
               </div>
 
               <div className="contentleft">
-                <div className="headingleft">International delivery</div>
+                <div className="headingleft">3PL/5PL </div>
                 <div className="textleft">
-                  Lowest shipping rates to your overseas destination.
+                We offer a comprehensive range of services, including transportation, warehousing, inventory management, order fulfillment.
                 </div>
               </div>
             </div>
@@ -131,10 +131,9 @@ const CoreCapabilities = () => {
 
             <div className="box box2">
               <div className="contentright">
-                <div className="headingright">Bulk Parcels</div>
+                <div className="headingright">International delivery</div>
                 <div className="textright">
-                  Sellers with large volume of shipments may easily upload
-                  orders
+                Lowest shipping rates to your overseas destination.
                 </div>
               </div>
 
