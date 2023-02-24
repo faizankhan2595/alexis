@@ -1,0 +1,290 @@
+.additionalservices{
+    width: 100%;
+    height: 65.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.additionalservices .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 83%;
+    height: 46rem;   
+}
+
+.additionalservices .main .top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 5.5rem;   
+    position: relative;
+    top: 1rem;
+}
+
+.additionalservices .main .top .heading{
+    width: 37.3rem;
+    height: 3.8rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.2rem;
+    line-height: 120%;
+    /* or 38px */
+    
+    letter-spacing: 0.02em;
+    
+    /* text-color */
+    
+    color: #252B42;   
+}
+
+.additionalservices .main .top .bar{
+    width: 9.4rem;
+    height: .3rem;    
+    /* Primary */
+    
+    background: #4D0043;   
+}
+
+.additionalservices .main .bottom{
+    width: 100%;
+    /* height: 380px; */
+    height: 34rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.additionalservices .main .bottom .flexrow{
+    width: 100%;
+    height: 14.8rem;
+    /* height: 176px; */
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.additionalservices .main .bottom .flexrow .box{
+    /* width: 38.4rem; */
+    width: 30.4%;
+    height: 100%;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+}
+
+.additionalservices .main .bottom .flexrow .box .left{
+    position: relative;
+    left: -.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 72%;
+}
+
+.additionalservices .main .bottom .flexrow .box2 .left{
+    position: relative;
+    left: -.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.additionalservices .main .bottom .flexrow .box6 .left{
+    position: relative;
+    left: -.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.additionalservices .main .bottom .flexrow .box .left .services{
+    position: absolute;
+    left: 4rem;
+    width: 23.5rem;
+    height: 3.4rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+    
+    text-transform: uppercase;
+    /* Primary */
+    z-index: 2;
+    color: #4D0043;    
+}
+
+.additionalservices .main .bottom .flexrow .box2 .left .services{
+    width: 25.9rem;
+    height: 3.4rem;
+    position: absolute;
+    /* left: 5.2rem; */
+    left: 4rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+    
+    /* Primary */
+    z-index: 2;
+    color: #4D0043;    
+}
+
+.additionalservices .main .bottom .flexrow .box6 .left .services{
+    width: 33.2rem;
+    height: 3.4rem;
+    position: absolute;
+    left: 4rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+    overflow-wrap: break-word;
+    /* Primary */
+    z-index: 2;
+    color: #4D0043;    
+}
+
+.additionalservices .main .bottom .flexrow .box .left .fa-play{
+    color: white;
+}
+
+.additionalservices .main .bottom .flexrow .box .right{
+    /* width: 11.7rem; */
+
+    position: relative;
+    bottom: -2.4rem;
+    /* bottom: -11.4rem; */
+    left: -1.6rem;
+}
+
+.additionalservices .main .bottom .flexrow .box2 .right{
+    bottom: -2.6rem;
+}
+
+.additionalservices .main .bottom .flexrow .box6 .right{
+    bottom: -2.8rem;
+}
+
+.additionalservices .main .bottom .flexrow .box .right img{
+    max-width: 100%;
+    height: 100%;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width : 1440px){
+
+    .additionalservices .main .bottom .flexrow .box6 .left .services{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width : 1200px){
+
+    .additionalservices .main .bottom .flexrow .box2 .left .services{
+        width: 100%;
+        height: auto;
+    }
+
+    .additionalservices .main .bottom .flexrow .box .left .services{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width : 600px){
+    .additionalservices .main .bottom .flexrow .box2 .left .services{
+        overflow-wrap: break-word;
+    }
+
+    .additionalservices .main .bottom .flexrow .box6 .left .services{
+        /* width: 80%; */
+        width: 12rem;
+        /* height: 80%; */
+    }
+}
+
+@media screen and (max-width : 480px){
+    .additionalservices{
+        width: 100%;
+        height: 872px;
+    }
+
+    .additionalservices .main{
+        flex-direction: column;
+        height: 90%;
+    }
+
+    .additionalservices .main .top{
+        width: 100%;
+        height: 6rem;
+    }
+
+    .additionalservices .main .top .heading{
+        /* width: 234px; */
+        width: 100%;
+        height: 24px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+        line-height: 120%;
+        /* identical to box height, or 24px */
+        
+        letter-spacing: 0.02em;
+        
+        /* text-color */
+        
+        color: #252B42;        
+    } 
+
+    .additionalservices .main .bottom{
+        height: 90%;
+    }
+
+    .additionalservices .main .bottom .flexrow{
+        height: 48%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .additionalservices .main .bottom .flexrow .box{
+        width: 100%;
+        height: 88px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .additionalservices .main .bottom .flexrow .box6 .left .services{
+        width: 100%;
+    }
+
+    .additionalservices .main .bottom .flexrow .box .right img{
+        max-width: 58%;
+        position: relative;
+        right: -40%;
+    }
+}

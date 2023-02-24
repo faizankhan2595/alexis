@@ -1,0 +1,1006 @@
+.frso{
+    width: 100%;
+    height: 250.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frso .main{
+    width: 80%;
+    height: 90%;
+    /* background-color: red; */
+}
+
+.frso .main .top{
+    height: 134.2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frso .main .top .left{
+    /* width: 79.4rem; */
+     width: 68%;
+    height: 100%;
+    /* background-color: black; */
+}
+
+.frso .main .top .left img{
+    max-width: 100%;
+}
+
+.frso .main .top .left .blogHeading{
+    width: 78rem;
+    height: 4rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 140%;
+    /* identical to box height, or 39px */
+    
+    
+    /* text */
+    
+    color: #272C35    
+}
+
+.frso .main .top .left .bloginfo{
+    width: 24rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.frso .main .top .left .bloginfo .date{
+    width: 8.8rem;
+    height: 1.7rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+    
+    
+    /* Secondary */
+    
+    color: #5772FF; 
+}
+
+.frso .main .top .left .bloginfo .comments{
+    width: 12.9rem;
+    height: 1.7rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+    
+    
+    /* Secondary */
+    
+    color: #5772FF;
+}
+
+.frso .main .top .left .blogcontent{
+    /* width: 79.4rem; */
+    width: 100%;
+    height: 22.3rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 140%;
+    
+    color: #272C35;    
+}
+
+.frso .main .top .left .blogsocial{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    width: 14rem;
+}
+
+.frso .main .top .left .blogsocial a{
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .8rem;
+    border-radius: 50%;   
+}
+
+.frso .main .top .left .tagandcat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 5.1rem;
+}
+
+.frso .main .top .left .blogauthor{
+    height: 23.3rem;
+    width: 79.7rem;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frso .main .top .left .blogauthor .authorcontent{
+    width: 90%;
+    height: 13.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frso .main .top .left .blogauthor .authorcontent .rightcontent{
+    /* margin-left: 1rem; */
+    width: 54rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.frso .main .top .left .blogauthor .authorcontent .rightcontent .about{
+    width: 5.7rem;
+    height: 2.8rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 140%;
+    
+    color: #898B92;   
+}
+
+.frso .main .top .left .blogauthor .authorcontent .rightcontent .name{
+    width: 12rem;
+    height: 3.4rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 140%;
+    
+    color: #272C35;    
+}
+
+.frso .main .top .left .blogauthor .authorcontent .rightcontent .desc{
+    width: 52.1rem;
+    height: 6.3rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 140%;
+    color: #898B92;    
+}
+
+.frso .main .top .right{
+    /* width: 38.4rem; */
+    width: 30%;
+    height: 100%;
+    background: #F5F5F5;
+}
+
+.frso .main .right .blogCategory{
+    width: 10.1rem;
+    height: 2.4rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+
+    letter-spacing: 0.02em;
+    margin-left: 3rem;
+    /* text */
+
+    color: #272C35;    
+}
+
+.frso .main .right a {
+    text-decoration: none;
+    /* width: 94px; */
+    width: 17rem;
+    height: 1.7rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: 0.02em;
+
+    /* caption */
+
+    color: #898B92;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+
+
+.frso .main .right .blogcategories{
+    /* margin-left: 4rem; */
+    margin-left: 7rem;
+    width: 9.4rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frso .main .right .hr{
+    /* width: 36.8rem; */
+    width: 96%;
+    height: 0px;
+    
+    border: 0.01rem solid #E0E0E0;
+}
+
+.frso .main .right .search .searchHeading{
+    width: 6.3rem;
+    height: 2.4rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+    
+    letter-spacing: 0.02em;
+    
+    /* text */
+    
+    color: #272C35;
+    margin-left: 3rem;    
+}
+
+.frso .main .right .search input[type=text]{
+    border: none;
+    outline: 0;
+}
+
+.frso .main .right .search .searchBar{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2.4rem 4rem;
+    /* gap: 13rem; */
+
+    width: 28.3rem;
+    height: 5.6rem;
+    
+    background: #FFFFFF;
+    border: 0.1rem solid #E6E6E6;
+    border-radius: 4.5rem;    
+
+    margin-left: 3rem;
+}
+
+.frso .main .right .search input ::placeholder{
+    width: 7.1rem;
+    height: 2.2rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+    
+    text-align: center;
+    
+    /* caption */
+    
+    color: #898B92;   
+}
+
+
+.frso .main .bottom input:focus::-webkit-input-placeholder { color:transparent; }
+.frso .main .bottom textarea:focus::-webkit-input-placeholder { color:transparent; }
+
+.frso .main .right .search .searchBar .searchicon{
+    display: flex;
+    align-items: center;
+    color: #5772FF;
+    font-size: 1.8rem;
+    /* margin-left: 3rem; */
+}
+
+.frso .main .bottom .noOfcmts{
+    width: 21.5rem;
+    height: 4.5rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.2rem;
+    line-height: 140%;
+    /* identical to box height, or 45px */
+    
+    text-transform: uppercase;
+    
+    /* text */
+    
+    color: #272C35;   
+}
+
+.frso .main .bottom .commenter{
+    height: 23.3rem;
+    width: 79.7rem;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.frso .main .bottom .commenter .commentercontent{
+    width: 90%;
+    height: 13.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.frso .main .bottom .commenter .commentercontent .rightcontent{
+    width: 54rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+.frso .main .bottom .commenter .commentercontent .rightcontent .comment{
+    width: 52.1rem;
+    height: 6.3rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 140%;
+    
+    color: #898B92;    
+}
+
+.frso .main .bottom .commenter .commentercontent .rightcontent .reply{
+    width: 4.1rem;
+    height: 2rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FF0E0E;    
+}
+
+.frso .main .bottom .addcmt{
+    width: 497px;
+    height: 38px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+    
+    letter-spacing: 0.02em;
+    
+    /* text-color */
+    
+    color: #252B42;
+}
+
+.frso .main .bottom .form{
+    height: 41rem;
+    width: 71.6rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;    
+}
+
+.frso .main .bottom .form .nameandemail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.frso .main .bottom .form .nameandemail .name, .email{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2.4rem;
+    gap: .8rem;
+    
+    width: 34.9rem;
+    height: 5.6rem;
+    
+    border: .1rem solid #E6E6E6;
+    border-radius: 4.5rem;   
+}
+
+.frso .main .bottom .form .messageText{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2.4rem;
+    gap: .8rem;
+    
+    width: 72rem;
+    height: 23.2rem;
+    
+    border: .1rem solid #E6E6E6;
+    border-radius: 2.4rem;    
+}
+
+.name::placeholder{
+    /* width: 55px; */
+    width: 100%;
+    text-align: left;
+}
+
+.email::placeholder{
+    /* width: 59px; */
+    width: 100%;
+    text-align: left;
+}
+
+.messageText::placeholder{
+    width: 100%;
+    text-align: left;
+}
+
+.frso .main .bottom .form .postcmt{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.frso .main .bottom .form .submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 8px;
+    width: 242px;
+    height: 54px;
+    
+    /* Primary */
+    
+    background: #4D0043;
+    border-radius: 45px;    
+    
+}
+
+.frso .main .bottom .form .submit span{
+    width: 147px;
+    height: 22px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* Screen Color */
+    
+    color: #FFFFFF;   
+}
+
+
+@media screen and (max-width: 1440px){
+    .frso .main{
+        width: 90%;
+    }
+
+    .frso .main .top .left .blogauthor{
+        width: 100%;
+        /* height: 27rem; */
+    }
+
+    .frso .main .top .right{
+        /* height: 134.2rem; */
+    } 
+
+
+    .frso .main .right .search .searchBar{
+        width: 74%;
+    }
+    
+    .frso .main .right .search input[type=text]{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width: 1200px){
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent{
+        width: 75%;
+    } 
+
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent .desc{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .frso .main .top{
+        overflow: scroll;
+    } 
+
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent{
+        width: 68%;
+    }
+    
+}
+
+@media screen and (max-width: 890px){
+    .frso{
+        /* height: 300rem; */
+        height: 308rem;
+    }
+
+    .frso .main{
+        height: 296rem;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+    } 
+
+
+
+    .frso .main .top{
+        flex-direction: column;
+        overflow: revert;
+        height: 201rem;
+        /* height: 210rem; */
+        align-items: center;
+    }
+
+    .frso .main .top .left{
+        /* width: 100%; */
+        width: 80rem;
+        /* height: 80rem; */
+        /* height: 185rem; */
+    }
+
+    .frso .main .top .right{
+        height: 82.2rem;
+        width: 60%;
+    } 
+
+
+    .frso .main .bottom .form{
+        width: 100%;
+    } 
+
+    .frso .main .bottom .form .nameandemail{
+        width: 100%;
+    }
+
+    .frso .main .bottom .form .nameandemail .name, .email{
+        width: 46%;
+    }
+    
+    .frso .main .bottom .form .messageText{
+        width: 100%;
+    } 
+
+}
+
+/* @media screen and (max-width: 890px){
+    .frso{
+        height: 310rem;
+    }
+} */
+
+@media screen and (max-width: 770px){
+    .frso {
+        /* height: 300rem; */
+        height: 313rem;
+    }
+
+    .frso .main {
+        height: 305rem;
+    }    
+
+    .frso .main .bottom .commenter{
+        width: 100%;
+    }
+
+    .frso .main .bottom .commenter .commentercontent{
+        /* width: 90%; */
+    }
+
+    .frso .main .bottom .commenter .commentercontent .leftcontent img{
+        max-width: 100%;
+    }
+
+    .frso .main .bottom .commenter .commentercontent .rightcontent{
+        width: 72%;
+    } 
+
+    .frso .main .bottom .commenter .commentercontent .rightcontent .comment{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .frso .main .top .left{
+        width: 100%;
+    } 
+
+
+    .frso .main .bottom .commenter{
+        height: 29.3rem;
+    }
+
+    .frso .main .bottom .commenter .commentercontent .rightcontent {
+        width: 65%;
+        height: 26rem;
+    }
+
+    .frso .main .bottom .commenter .commentercontent .rightcontent .comment {
+        width: 100%;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 480px){
+    .frso .main .top .left .blogauthor{
+        height: 27rem;
+    }
+
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent {
+        height: 120px;
+    }
+
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent .about{
+        width: 100%;
+    }
+
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent .name{
+        width: 100%;
+        height: 22px;
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 140%;
+        /* or 22px */
+
+
+        /* text */
+
+        color: #272C35;
+    }
+
+    .frso .main .bottom .noOfcmts{
+        /* width: 121px; */
+        width: 100%;
+        height: 25px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 140%;
+        /* or 25px */
+        
+        text-transform: uppercase;
+        
+        /* text */
+        
+        color: #272C35;        
+    }
+
+    .frso .main .bottom .form .postcmt{
+        justify-content: flex-start;
+    }
+
+    .frso .main .bottom .form .submit{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 8px;
+        
+        width: 144px;
+        height: 40px;
+        
+        /* Primary */
+        
+        background: #4D0043;
+        border-radius: 27px;
+        border: none;
+    }
+
+    .frso .main .bottom .form .submit span{
+        /* width: 115px; */
+        width: -1px;
+        /* height: 18px; */
+        height: 15px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        /* font-size: 14px; */
+        font-size: 12px;
+        line-height: 130%;
+        /* or 18px */
+        
+        text-align: center;
+        
+        /* Screen Color */
+        
+        color: #FFFFFF;        
+    }
+
+    
+}
+
+@media screen and (max-width: 432px){
+    .frso {
+        /* height: 300rem; */
+        height: 324rem;
+    }
+
+    .frso .main {
+        height: 321rem;
+    }
+
+    .frso .main .top {
+        flex-direction: column;
+        overflow: revert;
+        height: 212rem;
+        /* height: 210rem; */
+        align-items: center;
+    }
+
+    .frso .main .top .right {
+        height: 82.2rem;
+        /* width: 60%; */
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 415px){
+    .frso {
+        height: 342rem;
+    }
+
+    .frso .main {
+        height: 335rem;
+    }
+
+    .frso .main .top {
+        height: 213rem;
+    }
+
+    .frso .main .top .left .bloginfo{
+        width: 210px;
+        align-items: baseline;
+    }
+
+    .frso .main .top .left .bloginfo .date{
+        width: 81px;
+        font-size: 14px;
+    }
+
+    .frso .main .top .left .bloginfo .comments{
+        font-size: 14px;
+    }
+
+    .frso .main .top .left .blogauthor .authorcontent .leftcontent img{
+        max-width: 90%;
+    }
+
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent {
+        position: relative;
+        top: -20%;
+    }
+
+    .frso .main .right .blogCategory{
+        font-size: 20px;
+    }
+
+    .frso .main .right .blogcategories{
+        margin-left: 120px;
+    }
+
+    .frso .main .right .search .searchHeading{
+        font-size: 20px;
+    }
+
+    .frso .main .right a{
+        font-size: 12px;
+        width: 262px;
+    }
+
+    .frso .main{
+        position: relative;
+    }
+
+    .frso .main .top .right{
+        position: relative;
+        bottom: -56%;
+        width: 90%;
+    }
+
+    .frso .main .bottom{
+        position: relative;
+        bottom: 20%;
+    }
+
+    .frso .main .bottom .addcmt{
+        font-size: 18px;
+    }
+
+    .frso .main .bottom .commenter .commentercontent .leftcontent img{
+        max-width: 90%;
+    }
+
+    .frso .main .bottom .commenter .commentercontent .rightcontent .comment{
+        height: 13.3rem;
+    }
+
+    
+    .frso .main .bottom .form{
+        height: 53rem;
+    }
+
+    .frso .main .bottom .form .nameandemail{
+        height: 28%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .frso .main .bottom .form .nameandemail .name, .email{
+        width: 100%;
+    }
+
+    /* .frso .main .bottom .form .postcmt{
+        justify-content: flex-start;
+    }
+
+    .frso .main .bottom .form .submit span{
+        width: 147px;
+        height: 16px;
+        font-size: 14px;
+    }
+    
+    .frso .main .bottom .form .submit{
+        width: 196px;
+        height: 45px;
+    }  */
+}
+
+
+@media screen and (max-width: 376px){
+    /* .frso .main .bottom .commenter .commentercontent .rightcontent .comment{
+        height: 13.3rem;
+    } */
+}
+
+@media screen and (max-width: 360px){
+
+    .frso{
+        height: 351rem;
+    } 
+
+    .frso .main{
+        height: 347rem;
+    }
+
+    .frso .main .top{
+        height: 226rem;
+    } 
+    
+
+    .frso .main .bottom{
+        /* height: 100rem; */
+    } 
+
+    .frso .main .top .left{
+        width: 90%;
+    }
+
+    .frso .main .top .right{
+        bottom: -51.5%;
+        width: 90%;
+    }
+
+    
+   .frso .main .bottom .commenter .commentercontent .leftcontent img{
+        max-width: 90%;
+    } 
+
+    .frso .main .bottom .commenter .commentercontent .leftcontent img{
+        max-width: 90%;
+    }
+
+    .frso .main .bottom .commenter .commentercontent .rightcontent .comment{
+        height: 13.3rem;
+    }
+
+    .frso .main .top .left .blogauthor{
+        height: 30rem;
+        position: relative;
+    }
+
+    .frso .main .top .left .blogauthor .authorcontent{
+        position: absolute;
+        top: 6%;
+    }
+
+    .frso .main .top .left .blogauthor .authorcontent .rightcontent{
+        top: 0;
+    }
+    
+    .frso .main .top .right{
+        width: 80%;
+    }
+
+    .frso .main .bottom .form{
+        height: 53rem;
+    }
+
+
+
+    .frso .main .bottom .form .nameandemail{
+        height: 28%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .frso .main .bottom .form .nameandemail .name, .email{
+        width: 100%;
+    }
+}
+

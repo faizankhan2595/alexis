@@ -1,0 +1,287 @@
+.contact-us .content3{
+    width: 100%;
+    height: 65.8rem;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us .content3 .main{
+    /* width: 121.1rem; */
+    /* width: 119.7rem; */
+    width: 80%;
+    /* height: 31.8rem; */
+    height: auto;
+    /* background-color: black; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-us .content3 .main .box{
+    width: 38.4rem;
+    /* height: 100%; */
+    height: 31.8rem;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+/* address */
+
+.contact-us .content3 .main .box .address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 27.6rem;
+    height: 13.2rem;
+    position: relative;
+    top: 3.2rem;
+}
+
+.contact-us .content3 .main .box .address .top{
+    display: flex;
+    flex-direction: column;
+    height: 7.8rem;
+    justify-content: space-between;
+}
+
+.contact-us .content3 .main .box .address .top .icon{
+    text-align: center;
+}
+
+.contact-us .content3 .main .box .address .top .heading{
+    width: 8.8rem;
+    height: 3.4rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+
+    /* text */
+
+    color: #272C35;    
+}
+
+.contact-us .content3 .main .box .address .bottom{
+    width: 27.7rem;
+    height: 2.6rem;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    /* or 171% */
+    
+    letter-spacing: 0.2px;
+    
+    /* caption */    
+    color: #898B92
+    
+}
+
+/* phone */
+
+.contact-us .content3 .main .box .phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 27.6rem;
+    height: 12.8rem;
+    position: relative;
+    top: 3.2rem;
+}
+
+.contact-us .content3 .main .box .phone .top{
+    display: flex;
+    flex-direction: column;
+    height: 9rem;
+    justify-content: space-between;
+}
+
+.contact-us .content3 .main .box .phone .top .icon{
+    text-align: center;
+}
+
+.contact-us .content3 .main .box .phone .top .heading{
+    width: 8.8rem;
+    height: 3.4rem;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+
+    /* text */
+
+    color: #272C35;    
+}
+
+.contact-us .content3 .main .box .phone .bottom a{
+    text-decoration: none;
+    width: 11rem;
+    height: 2rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    
+    
+    /* Secondary */
+    
+    color: #5772FF;    
+}
+
+/* message */
+
+.contact-us .content3 .main .box .message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 27.6rem;
+    height: 12.8rem;
+    position: relative;
+    top: 3.2rem;
+}
+
+.contact-us .content3 .main .box .message .top{
+    display: flex;
+    flex-direction: column;
+    height: 9rem;
+    justify-content: space-between;
+}
+
+.contact-us .content3 .main .box .message .top .icon{
+    text-align: center;
+}
+
+.contact-us .content3 .main .box .message .top .heading{
+    width: 8.8rem;
+    height: 3.4rem;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+
+    /* text */
+
+    color: #272C35;    
+}
+
+.contact-us .content3 .main .box .message .bottom a{
+    text-decoration: none;
+    width: 11rem;
+    height: 2rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    
+    
+    /* Secondary */
+    
+    color: #5772FF;    
+}
+
+.contact-us .mobileMap .map{
+    display: none;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width : 800px){
+    .content3{
+        height: 1000rem;
+    }
+
+    .contact-us .content3 .main{
+        /* display : block; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contact-us .content3 .main .box{
+        /* width: 100%; */
+    }
+}
+
+@media screen and (max-width : 480px){
+    .contact-us .content3{
+        height: 925px;
+    }
+    
+    .contact-us .content3 .main{
+        height: 90%;
+    }
+
+    .contact-us .content3 .main .box{
+        width: 326px;
+        height: 234px;
+        align-items: center;
+    }
+
+    .contact-us .content3 .main .box .address{
+        top: 0;
+        height: 60%;
+    }
+    
+    .contact-us .content3 .main .box .phone{
+        top: 0;
+        height: 60%;
+    }
+
+    .contact-us .content3 .main .box .message{
+        top: 0;
+        height: 60%;
+    }
+
+    .contact-us .content3 .main .box .address .top{
+        height: 66%;
+    }
+
+    .contact-us .content3 .main .box .phone .top{
+        height: 66%;
+    }
+
+    .contact-us .content3 .main .box .message .top{
+        height: 66%;
+    }
+
+    .contact-us .desktopMap .map{
+        display: none;
+    }
+
+    .contact-us .mobileMap .map{
+        display: block;
+    }
+
+    
+}

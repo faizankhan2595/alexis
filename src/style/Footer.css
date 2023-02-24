@@ -1,0 +1,415 @@
+.footer{
+    width: 100%;
+    height: 41.4rem;
+    background: #232A34;
+}
+
+.footer .top{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .top .footerinfo{
+    width: 80%;
+    height: 60%;
+    /* background-color: red; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* position: relative;
+    left: 10px; */
+}
+
+.footer .top .footerinfo .aboutus, .info , .contactus, .social{
+    width: 20%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+
+/* heading of about us*/
+.footer .top .footerinfo .aboutus .heading{
+    width: 12.2rem;
+    height: 2.9rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;   
+}
+
+.footer .top .footerinfo .info .heading{
+    width: 18.5rem;
+    height: 3.2rem;
+    
+    /* h3 */
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.01rem;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.footer .top .footerinfo .contactus .heading{
+    width: 15.1rem;
+    height: 3.2rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.01rem;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;  
+}
+
+
+
+.footer .top .footerinfo .social .heading{
+    width: 10rem;
+    height: 3.2rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.01rem;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.footer .top .footerinfo .aboutus .bar, .info .bar, .contactus .bar, .social .bar{
+    width: 9.4rem;
+    height: .3rem;
+
+    background: #898B92;
+
+    /* Inside auto layout */
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.footer .top .footerinfo .info .content{
+    width: 55%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .top .footerinfo .info .content div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .top .footerinfo .info .content div a{
+    width: 9rem;
+    height: 2.4rem;
+
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.02rem;
+
+    /* caption */
+
+    color: #898B92;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.footer .top .footerinfo .info{
+    height: 85%;
+}
+
+.footer .top .footerinfo .aboutus .content{
+    /* width: 22.2rem; */
+    width: 90%;
+    height: 6rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 140%;
+    /* or 20px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #898B92;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;    
+}
+
+.footer .top .footerinfo .aboutus{
+    height: 70%;
+}
+
+.footer .top .footerinfo .contactus .content{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 250px;
+    height: 48px; */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    /* or 171% */
+
+    letter-spacing: 0.02rem;
+
+    /* caption */
+
+    color: #898B92;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.footer .top .footerinfo .contactus .content a{
+    color: #5772FF;
+}
+
+
+.footer .top .footerinfo .social{
+    height: 60%;
+}
+
+.footer .top .footerinfo .social .content{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .top .footerinfo .social .content a{
+    background: #898B92;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .8rem;
+    border-radius: 50%;
+}
+
+
+.footer .bottom{
+    width: 100%;
+    height: 20%;
+    background: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .bottom div{
+    width: 23%;
+    /* height: 24px; */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.02rem;
+
+    /* caption */
+
+    color: #898B92;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+/* Responsiveness */
+@media screen and (max-width : 1400px){
+    .footer .bottom div{
+        /* width: 25%; */
+        width: 350px;
+    } 
+
+    .footer .top .footerinfo .social .content{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width : 600px){
+    .footer .top .footerinfo{
+        width: 92%;
+    }
+
+}
+
+@media screen and (max-width : 480px){
+    .footer{
+        height: 800px;
+    }
+
+    .footer .top{
+        height: 93%;
+        flex-direction: column;
+    }
+
+    .footer .top .footerinfo{
+        height: 90%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* .footer .top .footerinfo .aboutus{
+        width: 70%;
+    } */
+
+    
+    .footer .top .footerinfo .aboutus, .info , .contactus, .social{
+        width: 70%;
+    }
+
+    .footer .top .footerinfo .info .heading{
+        font-size: 14px;
+    } 
+
+    .footer .top .footerinfo .aboutus{
+        height: 100px;
+    }
+
+    .footer .top .footerinfo .aboutus .heading{
+        width: 92px;
+        height: 22px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        /* font-size: 18px; */
+        font-size: 14px;
+        line-height: 120%;
+        
+        
+        color: #FFFFFF;        
+    } 
+    
+
+    .footer .top .footerinfo .info{
+        height: 180px;
+    }
+
+    .footer .top .footerinfo .contactus{
+        height: 150px;
+    }
+
+    .footer .top .footerinfo .contactus .heading{
+        width: 113px;
+        height: 32px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        /* font-size: 5px; */
+        line-height: 32px;
+        /* identical to box height, or 178% */
+        
+        letter-spacing: 0.1px;
+        
+        color: #FFFFFF;       
+    }
+
+    .footer .top .footerinfo .social{
+        height: 100px;
+    }
+
+    .footer .bottom{
+        /* height: 53px */
+        height: 7%
+    }
+
+    .footer .bottom div{
+        width: 80%;
+    }
+
+    .footer .top .footerinfo .social .heading{
+        font-size: 14px;
+    }
+
+}
+
+
+@media screen and (max-width : 360px){
+    .footer .top .footerinfo .contactus .heading{
+        /* font-size: 5px; */
+    }
+}

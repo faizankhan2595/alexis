@@ -1,0 +1,19 @@
+.toTop{
+    position : fixed;
+    bottom : 5.5rem;
+    right : 2rem;
+    height : 4rem;
+    width : 4rem;
+    font-size : 5rem;
+    background-color : #5772FF;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    border : 0;
+}
+
+@media screen and (max-width : 480px){
+    .toTop{
+        right: 0;
+    }
+}

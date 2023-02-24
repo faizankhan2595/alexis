@@ -1,0 +1,205 @@
+.whatdoyou{
+    width: 100%;
+    height: 65.8rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../assests/truck-vehicle-with-trailers-background.jpg') no-repeat center center /cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.whatdoyou .main{
+    width: 60%;
+    /* height: 254px; */
+    height: 38.5%;
+    /* background-color: red; */
+    text-align: center;
+    position: relative;
+    /* top: 94px; */
+    top: 14.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.whatdoyou .main .top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;     
+    height: 5.5rem; 
+    /* height: 8.4%;  */
+}
+
+.whatdoyou .main .top .heading{
+    width: 33.8rem;
+    height: 3.8rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.2rem;
+    line-height: 120%;
+    /* or 38px */
+
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.whatdoyou .main .top .bar{
+    width: 9.4rem;
+    height: .3rem;    
+    /* Primary */
+    
+    background: #4D0043;   
+}
+
+.whatdoyou .main .bottom{
+    height: 13.8rem;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whatdoyou .main .bottom .content{
+    width: 92.2rem;
+    height: 6.6rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 140%;
+    /* or 20px */
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;    
+}
+
+.whatdoyou .main .bottom .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem 4rem;
+    gap: .8rem;
+
+    width: 19.5rem;
+    height: 5.4rem;
+
+    /* Primary */
+
+    background: #4D0043;
+    border-radius: 4.5rem;
+}
+
+.whatdoyou .main .bottom .button a{
+    text-decoration: none;
+    width: 11.5rem;
+    height: 2.2rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 120%;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Responsive */
+
+@media screen and (max-width : 600px){
+    .whatdoyou .main .bottom .content{
+        /* width: 100%; */
+        width: 70.2rem;
+    }
+
+    .whatdoyou .main .bottom{
+        height: 16rem;
+    }
+}
+
+@media screen and (max-width : 480px){
+    .whatdoyou{
+        width: 100%;
+        height: 324px;
+    }
+
+    .whatdoyou .main{
+        /* height: 62%; */
+        height: 75%;
+    }
+
+    .whatdoyou .main .top{
+        width: 100%;
+        height: 6rem;
+    } 
+
+    .whatdoyou .main .top .heading{
+        /* width: 215px; */
+        width: 100%;
+        height: 22px;
+        left: 80px;
+        top: 48px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+        line-height: 110%;
+        /* identical to box height, or 22px */
+        
+        letter-spacing: 0.02em;
+        
+        color: #FFFFFF;        
+    }
+
+    .whatdoyou .main .bottom{
+        /* height: 19rem; */
+        height: 22rem;
+    }
+
+    .whatdoyou .main .bottom .content{
+        width: 48.2rem;
+    }
+
+    .whatdoyou .main .bottom .button{
+        align-items: center;
+        border: none;
+        border-radius: 27px;
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        height: 40px;
+        justify-content: center;
+        padding: 16px;
+        width: 144px;
+    }
+
+    .whatdoyou .main .bottom .button a{
+        color: #fff;
+        font-family: Lato;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        height: 16px;
+        line-height: 130%;
+        text-align: center;
+        width: 104px;        
+    } 
+}

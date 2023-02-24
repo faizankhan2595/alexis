@@ -1,0 +1,945 @@
+.rpmanager{
+    width: 100%;
+    height: 213.1rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rpmanager .main{
+    width: 80%;
+    height: 190rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+
+.rpmanager .main .top{
+    height: 93rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rpmanager .main .top .left{
+    display: block;
+    width: 78rem;
+     /* width: 68%; */
+    height: 22.3rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 140%;
+    /* or 20px */
+    
+    
+    /* text */
+    
+    color: #272C35;   
+}
+
+.rpmanager .main .top .left .jobdesc .hr{
+    width: 79.2rem;
+    border: 0.01rem solid #E0E0E0;
+    margin-top: 1.1rem;
+}
+
+.rpmanager .main .top .left .rpinfo{  
+    width: 27rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rpmanager .main .top .left .rpinfo .date, .application{
+    width: 12.9rem;
+    height: 1.7rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 120%;
+    
+    color: #5772FF;   
+}
+
+.rpmanager .main .top .left .jobHeading{
+    width: 78rem;
+    height: 2.4rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 140%;
+    /* or 22px */
+    
+    margin-bottom: 1rem;
+    /* text */
+    
+    color: #272C35;   
+}
+
+
+.rpmanager .main .top .right{
+    width: 38.4rem;
+    /* width: 30%; */
+    height: 100%;
+    background: #F5F5F5;
+}
+
+.rpmanager .main .top .right .jobCatergory{
+    width: 10.1rem;
+    height: 2.4rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+
+    letter-spacing: 0.02em;
+    margin-left: 3rem;
+    /* text */
+
+    color: #272C35;
+}
+
+.rpmanager .main .top .right a {
+    text-decoration: none;
+    /* width: 94px; */
+    width: 12rem;
+    height: 1.7rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: 0.02em;
+
+    /* caption */
+
+    color: #898B92;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.rpmanager .main .top .right .categories{
+    margin-left: 4rem;
+    width: 9.4rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rpmanager .main .top .right .hr{
+    width: 36.8rem;
+    /* width: 96%; */
+    height: 0px;
+    
+    border: 0.01rem solid #E0E0E0;
+}
+
+
+.rpmanager .main .top .right .search{
+
+}
+
+.rpmanager .main .top .right .search .searchHeading{
+    width: 6.3rem;
+    height: 2.4rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+    
+    letter-spacing: 0.02em;
+    
+    /* text */
+    
+    color: #272C35;
+    margin-left: 3rem;    
+}
+
+.rpmanager .main .top .right .search input[type=text]{
+    border: none;
+    outline: 0;
+}
+
+.rpmanager .main .top .right .search .searchBar{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2.4rem 4rem;
+    /* gap: 13rem; */
+
+    width: 28.3rem;
+    height: 5.6rem;
+    
+    background: #FFFFFF;
+    border: 0.1rem solid #E6E6E6;
+    border-radius: 4.5rem;    
+
+    margin-left: 3rem;
+}
+
+.rpmanager .main .top .right .search input ::placeholder{
+    width: 7.1rem;
+    height: 2.2rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+    
+    text-align: center;
+    
+    /* caption */
+    
+    color: #898B92;   
+}
+
+.rpmanager .main .top .right .search input:focus::-webkit-input-placeholder { color:transparent; }
+
+.rpmanager .main .top .right .search .searchBar .searchicon{
+    display: flex;
+    align-items: center;
+    color: #5772FF;
+    font-size: 1.8rem;
+    /* margin-left: 3rem; */
+}
+
+.rpmanager .main .top .right .recentJobs{
+    margin-left: 3rem;
+}
+
+.rpmanager .main .top .right .recentJobs .recentJobHeading{
+    width: 11.2rem;
+    height: 2.4rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+    
+    letter-spacing: 0.02em;
+    
+    /* text */
+    
+    color: #272C35;
+}
+
+.rpmanager .main .top .right .recentJobs .recentJobList{
+    margin-left: 3.5rem;
+    width: 9.4rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.rpmanager .main .top .right .recentJobs .recentJobList a{
+    width: 17rem;
+}
+
+.rpmanager .main .bottom{
+    height: 93rem;
+    width: 100%;
+    /* background-color: green; */
+}
+
+.rpmanager .main .bottom .interest{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 21rem;
+}
+
+.rpmanager .main .bottom .subhead{
+    width: 54.2rem;
+    height: 3.8rem;
+
+    font-family: Lato;
+    font-size: normal;
+    font-weight: 800;
+    font-size: 3.2rem;
+    line-height: 120%;
+
+    color: #272C35;
+}
+
+.rpmanager .main .bottom .interest .interestHeading{
+    width: 15.7rem;
+    height: 3.8rem;
+    
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 120%;
+    
+    color: #898B92;   
+}
+
+.rpmanager .main .bottom .form{
+    width: 76rem;
+    height: 74rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.rpmanager .main .bottom .form .fullname{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rpmanager .main .bottom .form .fullname .fname, .lname{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2.4rem;
+    gap: .8rem;
+    
+    width: 34.9rem;
+    /* width: 46%; */
+    height: 5.6rem;
+    
+    border: .1rem solid #E6E6E6;
+    border-radius: 4.5rem;    
+}
+
+.rpmanager .main .bottom .form .fullname input::placeholder{
+    width: 9.5rem;
+    height: 2.2rem;
+    
+    /* Headline/Headline 5 */
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+    
+    text-align: center;
+    
+    /* caption */
+    
+    color: #898B92;  
+}
+
+.rpmanager .main .bottom .form input:nth-child(3)::placeholder{
+    width: 12.9rem;
+    height: 2.2rem;
+}
+
+.rpmanager .main .bottom .form input:focus::-webkit-input-placeholder { color:transparent; }
+
+.rpmanager .main .bottom .form .fullname + input::placeholder{
+    font-size: 14px;
+}
+
+
+.rpmanager .main .bottom .form input:nth-child(3)::placeholder{
+    font-size: 14px;
+}
+
+.rpmanager .main .bottom .form .email, .phoneno{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2.4rem;
+    gap: .8rem;
+
+    width: 75.8rem;
+    /* width: 100%; */
+    height: 5.6rem;
+    
+    border: .1rem solid #E6E6E6;
+    border-radius: 4.5rem;   
+}
+
+
+.rpmanager .main .bottom .form input[type = "file"]{
+    display: none
+}
+
+.rpmanager .main .bottom .form .uploadcv{
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2.4rem 4rem;
+    /* gap: .8rem; */
+
+    width: 75.8rem;
+    height: 17.4rem;
+    
+    border: 0.1rem solid #E6E6E6;
+    border-radius: 2.4rem;  
+}
+
+.rpmanager .main .bottom .form .consent{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.rpmanager .main .bottom .form .consent input{
+    position: relative;
+    top: 0.2rem;
+}
+
+.rpmanager .main .bottom .form .consent div{
+    width: 74rem;
+    height: 4.4rem;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    /* text */
+    
+    color: #272C35;    
+}
+
+.rpmanager .main .bottom .form .submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem 4rem;
+    gap: .8rem;
+    width: 27.2rem;
+    height: 5.4rem;
+    
+    /* Primary */
+    
+    background: #4D0043;
+    border-radius: 4.5rem;    
+
+    /* Text */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.8rem;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Screen Color */
+
+    color: #FFFFFF;
+}
+
+/* Responsiveness */
+@media screen and (max-width : 1440px){
+
+    /* .rpmanager .main .top .left{
+        width: 68%;
+    } */
+
+    .rpmanager .main .top .left .jobdesc{
+         width: 95%; 
+    }
+
+    .rpmanager .main .top .right{
+        width: 30%;
+    }
+
+    .rpmanager .main .top .right .hr{
+        width: 96%;
+    }
+    
+    .rpmanager .main .top .right .search .searchBar{
+        width: 74%;
+    }
+
+    .rpmanager .main .top .right .search input[type=text]{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width : 1274px){
+    .rpmanager .main .top .right .search .searchBar{
+        width: 85%;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width : 1236px){
+    .rpmanager .main .top .right .search .searchBar{
+        width: 87%;
+        margin-left: 1.5rem;
+    }
+}
+
+/* @media screen and (max-width : 1226px){
+
+} */
+
+@media screen and (max-width : 1226px){
+    .rpmanager .main{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width : 1100px){
+    .rpmanager .main{
+        width: 93%;
+    }
+
+    .rpmanager .main .top .left{
+        width: 70rem; 
+   }
+
+   .rpmanager .main .top .left .jobdesc .hr{
+    width: 100%;
+    /* margin-top: 0; */
+    margin-top: -18px;
+   }
+   
+   .rpmanager .main .top .right .search .searchBar ::-webkit-input-placeholder{
+    /* color: #fff; */
+   }
+}
+
+
+@media screen and (max-width : 890px){
+    .rpmanager{
+        height: 300rem;
+        /* height: 275rem; */
+    }
+
+    .rpmanager .main{
+        height: 294rem;
+        /* height: 268rem; */
+        align-items: center;
+    }
+
+    .rpmanager .main .top{
+        height: 195rem;
+        /* height: 175rem; */
+    }
+    
+
+    .rpmanager .main .top .left {
+        width: 85%; 
+        /* width: 64rem;  */
+   }
+
+   .rpmanager .main .top .right{
+
+    width: 60%;
+    height: 96.8rem;
+    /* height: 76.8rem; */
+   }
+
+   .rpmanager .main .top{
+    flex-direction: column;
+    align-items: center;
+   }
+   
+   .rpmanager .main .bottom{
+        /* width: 85%; */
+   } 
+}
+
+
+@media screen and (max-width : 600px){
+    .rpmanager{
+        height: 291rem;
+        /* height: 2910px */
+        /* height: 275rem; */
+    }
+
+    .rpmanager .main{
+        height: 283rem;
+        /* height: 2830px; */
+        /* height: 268rem; */
+    }
+
+    .rpmanager .main .top{
+        height: 202rem;
+        /* height: 2020px; */
+        /* height: 175rem; */
+    }
+
+    .rpmanager .main .top .left{
+        width: 60rem;
+        /* height: 1356px; */
+    }
+
+    .rpmanager .main .top .right{
+        height: 82.8rem;
+    }
+
+    .rpmanager .main .bottom{
+        /* height: 115rem; */
+        height: 96rem;
+        /* height: 960px; */
+    }
+
+
+    .rpmanager .main .bottom .form{
+        width: 100%;
+    }
+
+    .rpmanager .main .bottom .form .fullname .fname, .lname{
+        width: 46%;
+    }
+
+    .rpmanager .main .bottom .form .email, .phoneno{
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width : 480px){
+    .rpmanager .main .top .right .search .searchBar input::placeholder{
+        font-size: 14px;
+    }
+
+    .rpmanager .main .bottom .form .fullname + input::placeholder{
+        font-size: 14px;
+    }
+    
+
+    .rpmanager .main .bottom .form input:nth-child(3)::placeholder{
+        font-size: 14px;
+    }
+
+    .rpmanager .main .bottom .form .consent {
+        width: 100%;
+    }
+
+    .rpmanager .main .bottom .form .consent div {
+        width: 92%;
+    }
+
+    .rpmanager .main .bottom .form .submit {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1.6rem 4rem;
+        gap: 0.8rem;
+        width: 18.2rem;
+        height: 5.4rem;
+        background: #4D0043;
+        border-radius: 4.5rem;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 1.4rem;
+        line-height: 120%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+    }
+    
+}
+
+
+@media screen and (max-width : 430px){
+    /* .rpmanager {
+        height: 295rem;
+    }
+
+    .rpmanager .main {
+        height: 288rem;
+    } */
+
+    .rpmanager .main .top .left{
+        /* width: 58rem; */
+        width: 56rem;
+    } 
+}
+
+@media screen and (max-width : 415px){
+    .rpmanager{
+        height: 318rem;
+    }
+
+    .rpmanager .main{
+        height: 312rem;
+    }
+
+    .rpmanager .main .top{
+        /* height: 216rem; */
+        height: 212rem;
+    }
+
+    .rpmanager .main .top .left{
+        width: 90%;
+    }
+
+    .rpmanager .main .top .left .rpinfo {
+        width: 40rem;
+        align-items: baseline;
+    }
+
+    .rpmanager .main .top .left .rpinfo .date, .application {
+        width: 132px;
+        font-size: 14px;
+    }
+
+    .rpmanager .main .top .left .jobHeading{
+        font-size: 16px;
+    }
+
+    .rpmanager .main .top .right{
+        width: 85%;
+        position: relative;
+        bottom: -45%;
+    }
+
+    .rpmanager .main .bottom {
+        position: relative;
+        bottom: 30%;
+    }
+
+    .rpmanager .main .top .right .jobCatergory{
+        font-size: 18px;
+    }
+
+    .rpmanager .main .top .right .categories{
+        /* margin-left: 6rem; */
+        margin-left: 120px;
+    }
+
+    .rpmanager .main .top .right a{
+        width: 262px;
+        font-size: 12px;
+        display: block;
+        /* font-size: 14px;
+        width: 15rem; */
+    } 
+
+    .rpmanager .main .top .right .search .searchHeading{
+        font-size: 18px;
+    }
+
+    .rpmanager .main .top .right .recentJobs .recentJobList{
+        /* margin-left: 6.5rem; */
+        margin-left: 99px;
+    }
+
+    .rpmanager .main .top .right .recentJobs .recentJobList a{
+        /* width: 23rem; */
+        width: 262px;
+    } 
+
+    .rpmanager .main .top .right .recentJobs .recentJobHeading{
+        width: 16.2rem;
+        font-size: 18px;
+    } 
+
+    .rpmanager .main .bottom .subhead{
+        /* font-size: 2.8rem; */
+        width: 90%;
+        height: 5.8rem;
+    }
+
+    .rpmanager .main .bottom .form .fullname{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 20%;
+    }
+
+    .rpmanager .main .bottom .form .fullname .fname{
+        width: 100%;
+    }
+
+    .rpmanager .main .bottom .form .fullname .lname{
+        width: 100%;
+    }
+
+    .rpmanager .main .bottom .form .fullname .fname::placeholder{
+        width: 100%;
+        text-align: left;
+    }
+
+    .rpmanager .main .bottom .form .fullname .lname::placeholder{
+        width: 100%;
+        text-align: left;
+    }
+
+    .rpmanager .main .bottom .form .fullname + input::placeholder{
+        font-size: 14px;
+        width: 100%;
+        text-align: left;
+    }
+    
+
+    .rpmanager .main .bottom .form input:nth-child(3)::placeholder{
+        font-size: 14px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .rpmanager .main .bottom .form .consent div{
+        width: 51rem;
+    }
+
+    .rpmanager .main .bottom .form .submit{
+        /* width: 27.4rem;
+        font-size: 1.8rem; */
+    } 
+}
+
+@media screen and (max-width : 394px){
+    .rpmanager {
+        height: 328rem;
+    }
+
+    .rpmanager .main {
+        height: 315rem;
+    }
+
+    .rpmanager .main .top {
+        height: 217rem;
+    }
+
+    .rpmanager .main .bottom {
+        bottom: 29%;
+    }
+}
+
+@media screen and (max-width : 376px){
+    .rpmanager .main .top .right{
+        bottom: -46%;
+    }
+
+    .rpmanager .main .bottom {
+        bottom: 28%;
+    }
+}
+
+@media screen and (max-width : 360px){
+    .rpmanager{
+        height: 330rem;
+    }
+
+    .rpmanager .main{
+        height: 324rem;
+    }
+
+    .rpmanager .main .top{
+        height: 228rem;
+    }
+
+    .rpmanager .main .top .left{
+        width: 89%;
+    }
+
+    .rpmanager .main .top .right{
+        width: 85%;
+        bottom: -42%;
+    }
+
+    .rpmanager .main .bottom {
+        bottom: 27%;
+    }
+
+    .rpmanager .main .bottom .subhead{
+        width: 100%;
+        /* height: 5.8rem; */
+    }
+
+    .rpmanager .main .bottom .form .fullname{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 20%;
+    }
+
+    .rpmanager .main .bottom .form .fullname .fname{
+        width: 100%;
+    }
+
+    .rpmanager .main .bottom .form .fullname .lname{
+        width: 100%;
+    }
+
+    .rpmanager .main .bottom .form .consent div{
+        width: 44rem;
+    }
+
+}
+
+@media screen and (max-width : 321px){
+    .rpmanager {
+        height: 340rem;
+    }
+
+    .rpmanager .main {
+        height: 330rem;
+    }
+
+    .rpmanager .main .top {
+        height: 235rem;
+    }
+}
+
+
+/* style={{
+    width: "54.2rem",
+    height: "3.8rem",
+
+    fontFamily: 'Lato',
+    fontStyle: "normal",
+    fontWeight: "800",
+    fontSize: "3.2rem",
+    lineHeight: "120%",
+
+    color: "#272C35",
+    }} */
