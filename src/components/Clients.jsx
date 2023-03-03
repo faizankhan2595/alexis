@@ -12,6 +12,7 @@ import logo4 from "../assests/logo4.png";
 import logo5 from "../assests/logo5.png";
 import logo6 from "../assests/logo6.png";
 import logo7 from "../assests/logo7.png";
+import ClientSlide from './ClientSlide';
 
 const Clients = () => {
   return (
@@ -22,6 +23,7 @@ const Clients = () => {
                 <div className="bar"></div>
             </div>
             <div className="bottom">
+                {/* <ClientSlide /> */}
                 {/* <div className="logo1"><img src={logo1} alt="" /></div> */}
                 {/* <div className="logo2"><img src={logo2} alt="" /></div> */}
                 {/* <div className="logo3"><img src={logo3} alt="" /></div> */}
@@ -37,7 +39,7 @@ const Clients = () => {
               delay: 2500,
               disableOnInteraction: false,
             }}
-            navigation={true}
+            // navigation={true}
             modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper"
           >

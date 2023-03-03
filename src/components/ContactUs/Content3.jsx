@@ -29,7 +29,7 @@ const Content3 = () => {
                         </div>
                         <div className="heading">Phone</div>
                     </div>
-                    <div className="bottom"><a href="tel:+65 123 456 789">+65 123 456 789</a></div>
+                    <div className="bottom"><a href="tel:+65 123 456 789">+65 9220 8169</a></div>
                 </div>
             </div>
             

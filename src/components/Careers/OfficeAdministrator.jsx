@@ -5,6 +5,7 @@ import Template from "../Template";
 import "./RPManager.css";
 import validator from "validator";
 import UploadCV from "./UploadCV";
+import { NavLink } from "react-router-dom";
 // import 'react-notifications/lib/notifications.css';
 import axios from "axios";
 // import {NotificationContainer, NotificationManager} from 'react-notifications';
@@ -69,23 +70,34 @@ const RPManager = () => {
         <div className="main">
           <div className="top">
             <div className="left">
-              <div className="rpinfo">
+              {/* <div className="rpinfo">
                 <div className="date">Started Oct 27, 2022</div> <div>|</div>{" "}
                 <div className="application">20 Applicants</div>
-              </div>
+              </div> */}
               <br />
 
               <div className="jobHeading">Job Introduction</div>
               <br />
 
               <div className="jobdesc">
-              We are looking for a responsible Administrator to organize our company's day-to- day operations. Your job will be to provide clerical support to our managers and employees and coordinate all daily administrative activities.
+                We are looking for a responsible Administrator to organize our
+                company's day-to- day operations. Your job will be to provide
+                clerical support to our managers and employees and coordinate
+                all daily administrative activities.
                 <br />
                 <br />
-                The Administrator should be highly organized and able to multitask with ease. The Administrator's main tasks include managing office equipment, booking meetings and events, arranging travel and distributing mail. Our ideal candidate has experience as an Office Administrator, Secretary or relevant administrative role. You should also be familiar with office software (e.g. MS Office), including word processors, spreadsheets and presentations.
+                The Administrator should be highly organized and able to
+                multitask with ease. The Administrator's main tasks include
+                managing office equipment, booking meetings and events,
+                arranging travel and distributing mail. Our ideal candidate has
+                experience as an Office Administrator, Secretary or relevant
+                administrative role. You should also be familiar with office
+                software (e.g. MS Office), including word processors,
+                spreadsheets and presentations.
                 <br />
                 <br />
-                Ultimately, a successful Administrator should be able to ensure our office procedures run smoothly.
+                Ultimately, a successful Administrator should be able to ensure
+                our office procedures run smoothly.
                 <br />
                 <br />
                 <h2 className="jobHeading">Responsibilities</h2>
@@ -105,32 +117,53 @@ const RPManager = () => {
                 typesetting industry.Lorem Ipsum is simply dummy text of the
                 printing and typesetting industry <br /> <br /> */}
                 <ul>
-                    <li>Book meetings and schedule events.</li>
-                    <li>Order office stationery and supplies.</li>
-                    <li>Maintain internal databases.</li>
-                    <li>Submit expense reports.</li>
-                    <li>Keep employee records &#40;physical and digital	&#41;.</li>
-                    <li>Maintain a filing system for data on customers and external partners.</li>
-                    <li>Distribute incoming and outgoing mail.</li>
-                    <li>Prepare regular reports and presentations.</li>
-                    <li>Organize, store and print company documents as needed.</li>
-                    <li>Answer and redirect phone calls.</li>
-                    <li>Make travel arrangements.</li>
-                    <li>Handle queries from managers and employees.</li>
-                    <li>Update office policies and ensure compliance with them.</li>
+                  <li>Book meetings and schedule events.</li>
+                  <li>Order office stationery and supplies.</li>
+                  <li>Maintain internal databases.</li>
+                  <li>Submit expense reports.</li>
+                  <li>
+                    Keep employee records &#40;physical and digital &#41;.
+                  </li>
+                  <li>
+                    Maintain a filing system for data on customers and external
+                    partners.
+                  </li>
+                  <li>Distribute incoming and outgoing mail.</li>
+                  <li>Prepare regular reports and presentations.</li>
+                  <li>
+                    Organize, store and print company documents as needed.
+                  </li>
+                  <li>Answer and redirect phone calls.</li>
+                  <li>Make travel arrangements.</li>
+                  <li>Handle queries from managers and employees.</li>
+                  <li>
+                    Update office policies and ensure compliance with them.
+                  </li>
                 </ul>
                 <br />
                 <br />
                 <h2 className="jobHeading">Requirements and skills</h2>
                 <ul>
-                    <li>Provenexperience as Administrator, Administrative Assistant or relevant role.</li>
-                    <li>Familiarity with office equipment, including printers and fax machines.</li>
-                    <li>Knowledge of office policies and procedures.</li>
-                    <li>Experience with office management tools &#40;MS Office software, in particular&#41;.</li>
-                    <li>Excellent organizational and time-management skills.</li>
-                    <li>Strong written and oral communication skills.</li>
-                    <li>Problem-solving attitude with an eye for detail.</li>
-                    <li>diploma: additional qualifications as an Office Administrator or Secretary are a plus.</li>
+                  <li>
+                    Provenexperience as Administrator, Administrative Assistant
+                    or relevant role.
+                  </li>
+                  <li>
+                    Familiarity with office equipment, including printers and
+                    fax machines.
+                  </li>
+                  <li>Knowledge of office policies and procedures.</li>
+                  <li>
+                    Experience with office management tools &#40;MS Office
+                    software, in particular&#41;.
+                  </li>
+                  <li>Excellent organizational and time-management skills.</li>
+                  <li>Strong written and oral communication skills.</li>
+                  <li>Problem-solving attitude with an eye for detail.</li>
+                  <li>
+                    diploma: additional qualifications as an Office
+                    Administrator or Secretary are a plus.
+                  </li>
                 </ul>
                 <br />
                 <br />
@@ -140,7 +173,7 @@ const RPManager = () => {
               </div>
             </div>
             <div className="right">
-              <br />
+              {/* <br />
               <br />
               <div className="jobCatergory">Categories</div>
               <br />
@@ -250,7 +283,7 @@ const RPManager = () => {
               </center>
 
               <br />
-              <br />
+              <br /> */}
 
               <div className="search">
                 <div className="searchHeading">Search</div>
@@ -282,54 +315,60 @@ const RPManager = () => {
                 <br />
 
                 <div className="recentJobList">
-                  <a href="">
-                    <svg
-                      width="7"
-                      height="12"
-                      viewBox="0 0 7 12"
-                      style={{ marginRight: "1rem" }}
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z"
-                        fill="#4D0043"
-                      />
-                    </svg>
-                    Fleet Operator Trainer
-                  </a>
-                  <a href="">
-                    <svg
-                      width="7"
-                      height="12"
-                      viewBox="0 0 7 12"
-                      style={{ marginRight: "1rem" }}
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z"
-                        fill="#4D0043"
-                      />
-                    </svg>
-                    Fleet Operator Trainer
-                  </a>
-                  <a href="">
-                    <svg
-                      width="7"
-                      height="12"
-                      viewBox="0 0 7 12"
-                      style={{ marginRight: "1rem" }}
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z"
-                        fill="#4D0043"
-                      />
-                    </svg>
-                    Fleet Operator Trainer
-                  </a>
+                  <NavLink exact to="/careers/driver">
+                    <a href="">
+                      <svg
+                        width="7"
+                        height="12"
+                        viewBox="0 0 7 12"
+                        style={{ marginRight: "1rem" }}
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z"
+                          fill="#4D0043"
+                        />
+                      </svg>
+                      Delivery Driver
+                    </a>
+                  </NavLink>
+                  <NavLink exact to="/careers/warehouse-packer">
+                    <a href="">
+                      <svg
+                        width="7"
+                        height="12"
+                        viewBox="0 0 7 12"
+                        style={{ marginRight: "1rem" }}
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z"
+                          fill="#4D0043"
+                        />
+                      </svg>
+                      Warehouse Packer
+                    </a>
+                  </NavLink>
+                  <NavLink exact to="/careers/office-administrator">
+                    <a href="">
+                      <svg
+                        width="7"
+                        height="12"
+                        viewBox="0 0 7 12"
+                        style={{ marginRight: "1rem" }}
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z"
+                          fill="#4D0043"
+                        />
+                      </svg>
+                      Office Admin
+                    </a>
+                  </NavLink>
                 </div>
               </div>
             </div>

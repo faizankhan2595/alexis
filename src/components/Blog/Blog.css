@@ -258,6 +258,16 @@
     /* margin-left: 3rem; */
 }
 
+.comingSoonBox{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.comingSoonBox img{
+    width: 370px;
+}
+
 /* Responsiveness */
 @media screen and (max-width : 1440px){
     .blog .main .left{

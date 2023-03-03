@@ -166,9 +166,13 @@
   top: 41%;
   height: 15rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   /* width: 40px; */
   z-index: 2;
+}
+
+.linkedin img{
+  width: 40px;
 }
 
 .social_media a{

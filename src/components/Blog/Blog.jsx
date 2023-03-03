@@ -5,6 +5,7 @@ import './Blog.css';
 import blogpic from '../../assests/blogpic.jpg'
 import { Link } from 'react-router-dom';
 import BackToTopButton from '../BackToTopButton';
+import comingsoon from '../../assests/blog-coming-soon.webp'
 
 const data = [
   { 
@@ -37,7 +38,7 @@ const Blog = () => {
   return (
     <div >
         <Template name = "Blogs"/>
-        <div className="blog">
+        {/* <div className="blog">
           <div className="main">
 
               <div className="left">
@@ -131,6 +132,9 @@ const Blog = () => {
                         </div>
               </div>
           </div>
+        </div> */}
+        <div className='comingSoonBox'>
+          <img src={comingsoon} alt="" />
         </div>
         <Footer/>
         <BackToTopButton/>

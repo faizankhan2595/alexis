@@ -5,6 +5,7 @@ import Template from "../Template";
 import "./RPManager.css";
 import validator from "validator";
 import UploadCV from "./UploadCV";
+import { NavLink } from "react-router-dom";
 // import 'react-notifications/lib/notifications.css';
 import axios from "axios";
 // import {NotificationContainer, NotificationManager} from 'react-notifications';
@@ -69,10 +70,10 @@ const RPManager = () => {
         <div className="main">
           <div className="top">
             <div className="left">
-              <div className="rpinfo">
+              {/* <div className="rpinfo">
                 <div className="date">Started Oct 27, 2022</div> <div>|</div>{" "}
                 <div className="application">20 Applicants</div>
-              </div>
+              </div> */}
               <br />
 
               <div className="jobHeading">Job Introduction</div>
@@ -134,7 +135,7 @@ const RPManager = () => {
               </div>
             </div>
             <div className="right">
-              <br />
+              {/* <br />
               <br />
               <div className="jobCatergory">Categories</div>
               <br />
@@ -244,7 +245,7 @@ const RPManager = () => {
               </center>
 
               <br />
-              <br />
+              <br /> */}
 
               <div className="search">
                 <div className="searchHeading">Search</div>
@@ -276,54 +277,60 @@ const RPManager = () => {
                 <br />
 
                 <div className="recentJobList">
-                  <a href="">
-                    <svg
-                      width="7"
-                      height="12"
-                      viewBox="0 0 7 12"
-                      style={{ marginRight: "1rem" }}
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z"
-                        fill="#4D0043"
-                      />
-                    </svg>
-                    Fleet Operator Trainer
-                  </a>
-                  <a href="">
-                    <svg
-                      width="7"
-                      height="12"
-                      viewBox="0 0 7 12"
-                      style={{ marginRight: "1rem" }}
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z"
-                        fill="#4D0043"
-                      />
-                    </svg>
-                    Fleet Operator Trainer
-                  </a>
-                  <a href="">
-                    <svg
-                      width="7"
-                      height="12"
-                      viewBox="0 0 7 12"
-                      style={{ marginRight: "1rem" }}
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z"
-                        fill="#4D0043"
-                      />
-                    </svg>
-                    Fleet Operator Trainer
-                  </a>
+                  <NavLink exact to="/careers/driver">
+                    <a href="">
+                      <svg
+                        width="7"
+                        height="12"
+                        viewBox="0 0 7 12"
+                        style={{ marginRight: "1rem" }}
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z"
+                          fill="#4D0043"
+                        />
+                      </svg>
+                      Delivery Driver
+                    </a>
+                  </NavLink>
+                  <NavLink exact to="/careers/warehouse-packer">
+                    <a href="">
+                      <svg
+                        width="7"
+                        height="12"
+                        viewBox="0 0 7 12"
+                        style={{ marginRight: "1rem" }}
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z"
+                          fill="#4D0043"
+                        />
+                      </svg>
+                      Warehouse Packer
+                    </a>
+                  </NavLink>
+                  <NavLink exact to="/careers/office-administrator">
+                    <a href="">
+                      <svg
+                        width="7"
+                        height="12"
+                        viewBox="0 0 7 12"
+                        style={{ marginRight: "1rem" }}
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.000274595 1.81599L0.000273792 10.996C0.000273714 11.886 1.08027 12.336 1.71027 11.706L6.30027 7.11599C6.69027 6.72599 6.69027 6.09599 6.30027 5.70599L1.71027 1.11599C1.08027 0.485986 0.000274673 0.925987 0.000274595 1.81599Z"
+                          fill="#4D0043"
+                        />
+                      </svg>
+                      Office Admin
+                    </a>
+                  </NavLink>
                 </div>
               </div>
             </div>

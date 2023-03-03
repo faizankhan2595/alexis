@@ -9,17 +9,17 @@ import './Careers.css';
 const Data = [
   {
     name : "Delivery Driver",
-    desc : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    desc : "We are looking for a responsible Delivery Driver to distribute products promptly to our customers. You will represent our company in a professional and cost-effective manner to increase our profitability and customer satisfaction.",
     url : "/careers/driver",
   },
   {
     name : "Warehouse Packer",
-    desc : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    desc : "We are looking for a Packer to join our team to ensure products are shipped quickly and safely.",
     url : "/careers/warehouse-packer",
   },
   {
     name : "Office Admin",
-    desc : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    desc : "We are looking for a responsible Administrator to organize our company's day-to- day operations. Your job will be to provide clerical support to our managers and employees and coordinate all daily administrative activities.",
     url : "/careers/office-administrator",
    },
   // {

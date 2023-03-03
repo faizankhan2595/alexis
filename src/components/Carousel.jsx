@@ -5,6 +5,7 @@ import facebook from "../assests/facebook.png";
 import twitter from "../assests/twitter.png";
 import instagram from "../assests/instagram.png";
 import whatsapp from "../assests/whatsapp.png";
+import linkedin from "../assests/linkedin.png";
 import Navbar from "./Navbar";
 function Carousel({ images }) {
   const [current, setCurrent] = useState(0);
@@ -63,7 +64,7 @@ function Carousel({ images }) {
                     {image.button}
                   </a>
                   <a
-                    href="https://wa.me/65123456789"
+                    href="https://wa.me/+65 9220 8169"
                     target="_blank"
                     className="whatsapp"
                   >
@@ -74,14 +75,17 @@ function Carousel({ images }) {
 
               <div className="social_media">
                 {/* <a href=""><i class="fa-brands fa-facebook" style={{color : "white"}}></i></a> */}
-                <a href="" className="facebook">
+                <a href="https://www.facebook.com/alexisEnt" target='_blank' className="facebook">
                   <img src={facebook} alt="" />
                 </a>
-                <a href="" className="twitter">
+                {/* <a href="" className="twitter">
                   <img src={twitter} alt="" />
                 </a>
                 <a href="" className="instagram">
                   <img src={instagram} alt="" />
+                </a> */}
+                <a href="https://www.linkedin.com/company/alexis-enterprise-pte-ltd" target='_blank' className="linkedin">
+                  <img src={linkedin} alt="" />
                 </a>
               </div>
             </div>

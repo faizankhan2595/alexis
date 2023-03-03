@@ -131,7 +131,7 @@
 
     color: #898B92;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -175,7 +175,8 @@
     /* text */
     
     color: #272C35;
-    margin-left: 3rem;    
+    margin-left: 3rem;  
+    margin-top: 2rem;  
 }
 
 .rpmanager .main .top .right .search input[type=text]{
