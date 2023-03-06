@@ -28,7 +28,8 @@ const Clients = () => {
                 {/* <div className="logo2"><img src={logo2} alt="" /></div> */}
                 {/* <div className="logo3"><img src={logo3} alt="" /></div> */}
                 {/* <div className="logo4"><img src={logo4} alt="" /></div> */}
-                <Swiper
+                <ClientSlide/>
+                {/* <Swiper
             slidesPerView={3}
             spaceBetween={20}
             loop={true}
@@ -50,7 +51,7 @@ const Clients = () => {
             <SwiperSlide><div className="logo2 swiperlogoBox"><img src={logo2} alt="" /></div></SwiperSlide>
             <SwiperSlide><div className="logo3 swiperlogoBox"><img src={logo3} alt="" /></div></SwiperSlide>
             <SwiperSlide><div className="logo4 swiperlogoBox"><img src={logo4} alt="" /></div></SwiperSlide>
-            </Swiper>
+            </Swiper> */}
 
             <Swiper
             slidesPerView={1}
