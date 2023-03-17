@@ -1,4 +1,4 @@
-import First from '../assests/First-min.jpg';
+import First from '../assests/First-min.webp';
 import Second from '../assests/Second.jpg';
 // import Third from '../assests/Third.jpg';
 

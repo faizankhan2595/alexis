@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.71f1043a.css",
-    "main.js": "/static/js/main.2dc34c0c.js",
+    "main.css": "/static/css/main.7e5448f3.css",
+    "main.js": "/static/js/main.d678ac56.js",
     "static/js/787.d3befce1.chunk.js": "/static/js/787.d3befce1.chunk.js",
     "static/media/truck-vehicle-with-trailers-background.jpg": "/static/media/truck-vehicle-with-trailers-background.11acd618a6fa1a3e9ae7.jpg",
     "static/media/factory-automation-with-automated-guided-vehicles-robotic-arm-transportation-increase-transport-more-with-safety.jpg": "/static/media/factory-automation-with-automated-guided-vehicles-robotic-arm-transportation-increase-transport-more-with-safety.3a09629e2c907bc7644b.jpg",
     "static/media/Second.jpg": "/static/media/Second.7ba9748eb2f863b70743.jpg",
-    "static/media/template.jpg": "/static/media/template.9dca4f967d57205eaf6d.jpg",
+    "static/media/template.webp": "/static/media/template.56556ee8337abd01d8d0.webp",
     "static/media/frsopic.jpg": "/static/media/frsopic.e608418f821aff20027e.jpg",
-    "static/media/First-min.jpg": "/static/media/First-min.f4cc6ed26a19f2f4ef87.jpg",
     "static/media/Gallery Image 1.jpg": "/static/media/Gallery Image 1.1b28f8e3cc0ba80fb137.jpg",
     "static/media/Gallery Image 5.jpg": "/static/media/Gallery Image 5.a2862f6facdc2299d5de.jpg",
     "static/media/blogpic.jpg": "/static/media/blogpic.b7cec31e199b08331a73.jpg",
@@ -22,6 +21,7 @@
     "static/media/Group.png": "/static/media/Group.7c149dada7837536cfdc.png",
     "static/media/Client1.jpg": "/static/media/Client1.778f380224e1ba68efc8.jpg",
     "static/media/Gallery Image 7.jpg": "/static/media/Gallery Image 7.b2464685bc51aad63e95.jpg",
+    "static/media/First-min.webp": "/static/media/First-min.fa3e451e7851075b35fe.webp",
     "static/media/Gallery Image 6.jpg": "/static/media/Gallery Image 6.701420025f5bc84f44b7.jpg",
     "static/media/logo7.png": "/static/media/logo7.53217b51de609ff13564.png",
     "static/media/logo6.png": "/static/media/logo6.4c417df59849433de35e.png",
@@ -37,12 +37,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.71f1043a.css.map": "/static/css/main.71f1043a.css.map",
-    "main.2dc34c0c.js.map": "/static/js/main.2dc34c0c.js.map",
+    "main.7e5448f3.css.map": "/static/css/main.7e5448f3.css.map",
+    "main.d678ac56.js.map": "/static/js/main.d678ac56.js.map",
     "787.d3befce1.chunk.js.map": "/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71f1043a.css",
-    "static/js/main.2dc34c0c.js"
+    "static/css/main.7e5448f3.css",
+    "static/js/main.d678ac56.js"
   ]
 }
