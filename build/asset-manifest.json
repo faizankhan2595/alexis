@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7e5448f3.css",
-    "main.js": "/static/js/main.d678ac56.js",
+    "main.js": "/static/js/main.f0f44a8d.js",
     "static/js/787.d3befce1.chunk.js": "/static/js/787.d3befce1.chunk.js",
     "static/media/truck-vehicle-with-trailers-background.jpg": "/static/media/truck-vehicle-with-trailers-background.11acd618a6fa1a3e9ae7.jpg",
     "static/media/factory-automation-with-automated-guided-vehicles-robotic-arm-transportation-increase-transport-more-with-safety.jpg": "/static/media/factory-automation-with-automated-guided-vehicles-robotic-arm-transportation-increase-transport-more-with-safety.3a09629e2c907bc7644b.jpg",
@@ -38,11 +38,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.7e5448f3.css.map": "/static/css/main.7e5448f3.css.map",
-    "main.d678ac56.js.map": "/static/js/main.d678ac56.js.map",
+    "main.f0f44a8d.js.map": "/static/js/main.f0f44a8d.js.map",
     "787.d3befce1.chunk.js.map": "/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e5448f3.css",
-    "static/js/main.d678ac56.js"
+    "static/js/main.f0f44a8d.js"
   ]
 }
