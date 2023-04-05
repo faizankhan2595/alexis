@@ -64,7 +64,7 @@ function Carousel({ images }) {
                     {image.button}
                   </a>
                   <a
-                    href="https://wa.me/+65 9220 8169"
+                    href="https://wa.me/65123456789"
                     target="_blank"
                     className="whatsapp"
                   >
