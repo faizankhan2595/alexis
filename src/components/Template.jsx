@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import facebook from "../assests/facebook.png";
 import twitter from "../assests/twitter.png";
 import instagram from "../assests/instagram.png";
+import linkedin from "../assests/linkedin.png";
 import { NavLink} from "react-router-dom"
 
 const Template = ({name, fname}) => {
@@ -12,7 +13,7 @@ const Template = ({name, fname}) => {
       <Navbar/>
             <div className="social_media">
                   {/* <a href=""><i class="fa-brands fa-facebook" style={{color : "white"}}></i></a> */}
-                  <a href="" className="facebook">
+                  {/* <a href="" className="facebook">
                     <img src={facebook} alt="" />
                   </a>
                   <a href="" className="twitter">
@@ -20,7 +21,19 @@ const Template = ({name, fname}) => {
                   </a>
                   <a href="" className="instagram">
                     <img src={instagram} alt="" />
-                  </a>
+                  </a> */}
+                  <a href="https://www.facebook.com/alexisEnt" target='_blank' className="facebook">
+                  <img src={facebook} alt="" />
+                </a>
+                {/* <a href="" className="twitter">
+                  <img src={twitter} alt="" />
+                </a>
+                <a href="" className="instagram">
+                  <img src={instagram} alt="" />
+                </a> */}
+                <a href="https://www.linkedin.com/company/alexis-enterprise-pte-ltd" target='_blank' className="linkedin">
+                  <img src={linkedin} alt="" />
+                </a>
             </div>
 
             <div className="main">

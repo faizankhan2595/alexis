@@ -115,7 +115,7 @@ const Navbar = () => {
                           <img src={phn} alt="" />
                         </div>
                         <div>
-                          <a href="tel:65123456789">+65 9220 8169</a>
+                          <a href="tel:65123456789">+6592208169</a>
                         </div>
                       </div>
                     <img src = {hamburger} onClick = {showNavbar} className = 'hamburger' alt="" />

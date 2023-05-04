@@ -14,7 +14,7 @@ const Content3 = () => {
                         </div>
                         <div className="heading">Address</div>
                     </div>
-                    <div className="bottom">7030 Ang Mo Kio Avenue 5 Northstar@AMK #06-43, 569880</div>
+                    <div className="bottom">7030 ANG MO KIO AVE 5 NORTHSTAR@AMK #06-43, SINGAPORE 569880</div>
                 </div>
             </div>
 
@@ -29,7 +29,7 @@ const Content3 = () => {
                         </div>
                         <div className="heading">Phone</div>
                     </div>
-                    <div className="bottom"><a href="tel:+65 123 456 789">+65 9220 8169</a></div>
+                    <div className="bottom"><a href="tel:+6592208169">+6592208169</a></div>
                 </div>
             </div>
             
@@ -46,7 +46,7 @@ const Content3 = () => {
                         </div>
                         <div className="heading">Message</div>
                     </div>
-                    <div className="bottom"><a href="mailto:info@design.com">info@design.com</a></div>
+                    <div className="bottom"><a href="mailto:benjamin@alexisgroupsg.com">benjamin@alexisgroupsg.com</a></div>
                 </div>
             </div>
         </div>
