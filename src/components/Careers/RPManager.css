@@ -9,7 +9,7 @@
 
 .rpmanager .main{
     width: 80%;
-    height: 190rem; 
+    height: 160rem; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -556,12 +556,12 @@
 
 @media screen and (max-width : 890px){
     .rpmanager{
-        height: 300rem;
+        height: 268rem;
         /* height: 275rem; */
     }
 
     .rpmanager .main{
-        height: 294rem;
+        height: 256rem;
         /* height: 268rem; */
         align-items: center;
     }
@@ -597,13 +597,13 @@
 
 @media screen and (max-width : 600px){
     .rpmanager{
-        height: 291rem;
+        height: 251rem;
         /* height: 2910px */
         /* height: 275rem; */
     }
 
     .rpmanager .main{
-        height: 283rem;
+        height: 243rem;
         /* height: 2830px; */
         /* height: 268rem; */
     }
@@ -713,7 +713,7 @@
     }
 
     .rpmanager .main{
-        height: 312rem;
+        height: 283rem;
     }
 
     .rpmanager .main .top{
@@ -747,7 +747,7 @@
 
     .rpmanager .main .bottom {
         position: relative;
-        bottom: 30%;
+        bottom: 42%;
     }
 
     .rpmanager .main .top .right .jobCatergory{
@@ -849,7 +849,7 @@
     }
 
     .rpmanager .main .top {
-        height: 217rem;
+        height: 190rem;
     }
 
     .rpmanager .main .bottom {
@@ -863,7 +863,7 @@
     }
 
     .rpmanager .main .bottom {
-        bottom: 28%;
+        bottom: 41%;
     }
 }
 
@@ -929,6 +929,9 @@
 
     .rpmanager .main .top {
         height: 235rem;
+    }
+    .rpmanager{
+        margin:unset !important
     }
 }
 
