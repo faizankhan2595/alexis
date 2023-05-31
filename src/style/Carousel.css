@@ -161,9 +161,9 @@
 .social_media{
   display: flex;
   flex-direction: column;
-  position: fixed;
+  position: absolute;
   right: 0%;
-  top: 41%;
+  top: 30%;
   height: 15rem;
   align-items: center;
   justify-content: space-evenly;
