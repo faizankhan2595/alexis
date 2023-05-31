@@ -318,6 +318,18 @@
     .corecapabilities .main .bottom .col .box .contentright .headingright{
         text-align: left;
     }
+    .textleft{
+        font-size: 1.8rem !important ;
+    }
+    .headingleft{
+        font-size: 1.8rem !important ;
+    }
+    .headingright{
+ font-size: 1.8rem !important ;
+    }
+    .textright{
+        font-size: 1.8rem !important ;
+    }
 }
 
 @media screen and (max-width : 415px){
