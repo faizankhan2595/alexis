@@ -16,6 +16,9 @@
     /* background-color: red; */
     justify-content: space-between;
 }
+.rpmanager .officeAdmin{
+    height:180rem;
+}
 
 .rpmanager .main .top{
     height: 93rem;

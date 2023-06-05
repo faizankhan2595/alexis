@@ -67,7 +67,7 @@ const RPManager = () => {
     <div className="">
       <Template name="Careers" fname="/Office Administrator" />
       <div className="rpmanager">
-        <div className="main">
+        <div className="main officeAdmin">
           <div className="top">
             <div className="left">
               {/* <div className="rpinfo">
